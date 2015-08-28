@@ -8,28 +8,19 @@
     <title>Colbordados Company</title>
 
 
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
      <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.pink-amber.min.css" /> 
     <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
+
+
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+
+
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -37,33 +28,30 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <img src="images/logoSmall.png">
-          <h2>Colbordados Company</h2>
+          <img src="images/logoSmall.png" alt="colbordados company" />
         </div>
 
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
-        <!--
+        
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Quienes somos</a>
-          <a href="#features" class="mdl-layout__tab">Nuestros Trabajos</a>
-          <a href="#features" class="mdl-layout__tab">Clientes</a>
-          <a href="#features" class="mdl-layout__tab">Pedidos</a>
-          <a href="#features" class="mdl-layout__tab">Contactenos</a>
+          <a href="#inicio" class="mdl-layout__tab is-active">Inicio</a>
+          <a href="#trabajos" class="mdl-layout__tab">Nuestros Trabajos</a>
+          <a href="#empresa" class="mdl-layout__tab">La Empresa</a>
+          <a href="#contactenos" class="mdl-layout__tab">Contactenos</a>
         </div>
-      -->
+      
       </header>
       <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
+        <div class="mdl-layout__tab-panel is-active" id="inicio">
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text">
-                <h4>Quienes Somos</h4>
-                Empresa Colombiana radicada en Bogotá que presta servicios de bordados de todo tipo
-
-                <H3>PAGINA EN CONSTRUCCION</H3>
-                Contacto <b>316-8769764</b>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <div class="mdl-card__supporting-text section-center">
+                <h4> Empresa Colombiana de bordados industriales </h4> 
+                <video width="800" height="600" controls>
+                  <source src="videos/video1.mp4" type="video/mp4">
+                    video no soportado
+                </video>
               </div>
               <!--
               <div class="mdl-card__actions">
@@ -72,14 +60,14 @@
             -->
             </div>
           </section>
-          <!--
+          
           <section class="section--footer mdl-color--white mdl-grid">
             <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
               <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
             </div>
             <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Calidad en los trabajos</h5>
-              la calidad es lo primero
+              <h5>Atención al cliente</h5>
+              Contáctese con nosotros y recibirá una atención personalizada
             </div>
             <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
               <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
@@ -90,14 +78,129 @@
             </div>
           </section>
         </div>
-      -->
-        <div class="mdl-layout__tab-panel" id="features">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>EN CONSTRUCCION</h4>
+      
+        <div class="mdl-layout__tab-panel" id="contactenos">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text section-center">
+              <h3>Contactos</h3>
+
+
+              <!-- 
+              <form action="#contactenos">
+                <table class="mdl-data-table  mdl-shadow--2dp">
+  <tbody>
+    <tr>
+      <td>
+        <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="sample1" />
+                  <label class="mdl-textfield__label" for="sample1">Nombre...</label>
+                </div>
+
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+                    <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="sample1" />
+                  <label class="mdl-textfield__label" for="sample1">Telefono...</label>
+                </div>
+                </td>
+    </tr>
+    <tr>
+      <td>
+                <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="sample1" />
+                  <label class="mdl-textfield__label" for="sample1">Correo...</label>
+                </div>
+                </td>
+    </tr>
+    <tr>
+      <td>
+                 <div class="mdl-textfield mdl-js-textfield">
+                    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+                    <label class="mdl-textfield__label" for="sample5">Comentario...</label>
+                </div>
+                </td>
+    </tr>
+    <tr>
+      <td>
+                <button class="mdl-button mdl-js-button mdl-button--raised">
+                  Enviar
+                </button>
+</td>
+    </tr>
+  </tbody>
+</table>
+-->
+
+
+
+
+                
+              </form>
+ 
+              <ul>
+                <li>
+                  <h4>Jimmy Velasco Chacón</h4>
+                  <h4>Gerente Comercial</h4>
+                  <h4><b>Celular: </b>+57 312 4827829</h4>
+                  <h4><a href="mailto:comercial@colboradoscompany.com">comercial@colboradoscompany.com</a></h4>
+                </li>
+                <li>
+                  <h4>Yuliana Lopez Zapata</h4>
+                  <h4>Gerente Administrativa y Financiera</h4>
+                  <h4><b>Celular: </b>+57 316 8309989</h4>
+                  <h4><a href="mailto:finanzas@colboradoscompany.com">finanzas@colboradoscompany.com</a></h4>
+                </li>
+                <li>
+                  <h4>Stella Gamba R.</h4>
+                  <h4>Jefe de producción</h4>
+                  <h4><b>Celular: </b>+57 320 4534361</h4>
+                  <h4><a href="mailto:produccion@colboradoscompany.com">produccion@colboradoscompany.com</a></h4>
+                </li>
+              </ul>
             </div>
+          </div>
           </section>
         </div>
+
+        <div class="mdl-layout__tab-panel" id="empresa">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text section-center">
+              <h3>La Empresa</h3>
+ 
+
+              <h6>
+                <p align="justify">
+                  Somos una Empresa joven y dinámica, dedicada a la elaboración de bordados industriales, publicitarios, insignias, escudos, tapetes y más.      
+              Nuestra Empresa tiene un departamento de producción con personal  calificado para realizar un trabajo integral; tenemos la capacidad instalada para realizar bordados de todo tipo, utilizando hilos de la mejor calidad, buscando satisfacer las necesidades de nuestros clientes de una manera eficiente.
+              </p>
+              </h6>
+              <br />
+
+            </div>
+          </div>
+          </section>
+        </div>
+
+        <div class="mdl-layout__tab-panel" id="trabajos">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text section-center">
+              <h3>Nuestros Trabajos</h3>
+ 
+              <img src="images/trabajo1.jpg"  height="800" width="600" alt="bordado" />
+              <img src="images/trabajo2.jpg"  height="800" width="600" alt="bordado" />
+              <img src="images/trabajo3.jpg"  height="800" width="600" alt="bordado" />
+              <img src="images/trabajo4.jpg"  height="800" width="600" alt="bordado" />
+            </div>
+          </div>
+          </section>
+        </div>
+
         <footer class="mdl-mega-footer">
           <div class="mdl-mega-footer--middle-section" />
 
@@ -106,7 +209,7 @@
               Colbordados Company
             </div>
             <ul class="mdl-mega-footer--link-list">
-              <li>Bogota, Colombia</li>
+              <li>Dirección Carrera 108 No 153-55 Bogotá, Colombia</li>
 
             </ul>
           </div>
@@ -114,5 +217,17 @@
       </main>
     </div>
     <script src="material.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+ <script type="text/javascript" >
+
+    $(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
+</script>
   </body>
 </html>
